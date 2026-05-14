@@ -1,0 +1,14 @@
+C:\Academia C#\GestaoDeEquipamentos\GestaoDeEsquipamentos.ConsoleApp\bin\Debug\net9.0\GestaoDeEsquipamentos.ConsoleApp.exe
+C:\Academia C#\GestaoDeEquipamentos\GestaoDeEsquipamentos.ConsoleApp\bin\Debug\net9.0\GestaoDeEsquipamentos.ConsoleApp.deps.json
+C:\Academia C#\GestaoDeEquipamentos\GestaoDeEsquipamentos.ConsoleApp\bin\Debug\net9.0\GestaoDeEsquipamentos.ConsoleApp.runtimeconfig.json
+C:\Academia C#\GestaoDeEquipamentos\GestaoDeEsquipamentos.ConsoleApp\bin\Debug\net9.0\GestaoDeEsquipamentos.ConsoleApp.dll
+C:\Academia C#\GestaoDeEquipamentos\GestaoDeEsquipamentos.ConsoleApp\bin\Debug\net9.0\GestaoDeEsquipamentos.ConsoleApp.pdb
+C:\Academia C#\GestaoDeEquipamentos\GestaoDeEsquipamentos.ConsoleApp\obj\Debug\net9.0\GestaoDeEsquipamentos.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Academia C#\GestaoDeEquipamentos\GestaoDeEsquipamentos.ConsoleApp\obj\Debug\net9.0\GestaoDeEsquipamentos.ConsoleApp.AssemblyInfoInputs.cache
+C:\Academia C#\GestaoDeEquipamentos\GestaoDeEsquipamentos.ConsoleApp\obj\Debug\net9.0\GestaoDeEsquipamentos.ConsoleApp.AssemblyInfo.cs
+C:\Academia C#\GestaoDeEquipamentos\GestaoDeEsquipamentos.ConsoleApp\obj\Debug\net9.0\GestaoDeEsquipamentos.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Academia C#\GestaoDeEquipamentos\GestaoDeEsquipamentos.ConsoleApp\obj\Debug\net9.0\GestaoDeEsquipamentos.ConsoleApp.dll
+C:\Academia C#\GestaoDeEquipamentos\GestaoDeEsquipamentos.ConsoleApp\obj\Debug\net9.0\refint\GestaoDeEsquipamentos.ConsoleApp.dll
+C:\Academia C#\GestaoDeEquipamentos\GestaoDeEsquipamentos.ConsoleApp\obj\Debug\net9.0\GestaoDeEsquipamentos.ConsoleApp.pdb
+C:\Academia C#\GestaoDeEquipamentos\GestaoDeEsquipamentos.ConsoleApp\obj\Debug\net9.0\GestaoDeEsquipamentos.ConsoleApp.genruntimeconfig.cache
+C:\Academia C#\GestaoDeEquipamentos\GestaoDeEsquipamentos.ConsoleApp\obj\Debug\net9.0\ref\GestaoDeEsquipamentos.ConsoleApp.dll
