@@ -1,10 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using GestaoDeEsquipamentos.ConsoleApp.Dominio;
 
-int contadorIds = 1;
-
+int contadorIdsEquipamentos = 1;
 Equipamentos[] equipamentosSalvos = new Equipamentos[100];
 
+int contadorIdsChamados = 1;
+Chamado[] chamadosSalvos = new Chamado[100];
 
 while (true)
 {
@@ -23,7 +24,7 @@ while (true)
 
     if (opcaoMenu == "S")
     {
-        Console.Clear();
+        //Console.Clear();
         break;
     }
 
@@ -42,7 +43,7 @@ while (true)
         DateTime dataFabricacao = DateTime.Parse(Console.ReadLine());
 
         Equipamentos equipamento = new Equipamentos();
-        equipamento.id = contadorIds++;
+        equipamento.id = contadorIdsEquipamentos++;
         equipamento.nome = nome;
         equipamento.precoAquisicao = precoAquisicao;
         equipamento.dataFabricacao = dataFabricacao;
