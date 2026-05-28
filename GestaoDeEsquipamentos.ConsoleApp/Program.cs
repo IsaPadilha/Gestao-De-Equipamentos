@@ -15,6 +15,14 @@ equipamentoTeste.dataFabricacao = DateTime.Parse("02/02/2020");
 
 equipamentosSalvos[0] = equipamentoTeste;
 
+Chamado chamadoTeste = new Chamado();
+chamadoTeste.id = contadorIdsChamados++;
+chamadoTeste.titulo = "Display quebrado";
+chamadoTeste.descricao = "O display liga mas não tem brilho";
+chamadoTeste.equipamentos = equipamentoTeste;
+
+chamadosSalvos[0] = chamadoTeste;
+
 while (true)
 {
     Console.Clear();
