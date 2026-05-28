@@ -1,11 +1,19 @@
-﻿// See https://aka.ms/new-console-template for more information
-using GestaoDeEsquipamentos.ConsoleApp.Dominio;
+﻿using GestaoDeEsquipamentos.ConsoleApp.Dominio;
 
 int contadorIdsEquipamentos = 1;
 Equipamentos[] equipamentosSalvos = new Equipamentos[100];
 
 int contadorIdsChamados = 1;
 Chamado[] chamadosSalvos = new Chamado[100];
+
+// criação de dados teste
+Equipamentos equipamentoTeste = new Equipamentos();
+equipamentoTeste.id = contadorIdsEquipamentos++;
+equipamentoTeste.nome = "Notebook Dell";
+equipamentoTeste.precoAquisicao = 2000;
+equipamentoTeste.dataFabricacao = DateTime.Parse("02/02/2020");
+
+equipamentosSalvos[0] = equipamentoTeste;
 
 while (true)
 {
@@ -314,6 +322,41 @@ while (true)
                 Console.WriteLine($"O chamado {novoChamado.titulo} foi cadastrado com sucesso!");
                 Console.ReadLine();
             }
+
+            else if (opcaoMenu == "4")
+            {
+                Console.WriteLine("---------------------------------");
+                Console.WriteLine("Vizualização de Chamados");
+                Console.WriteLine("---------------------------------");
+
+                // tabela
+                Console.WriteLine(
+                    "{0, -7} | {1, -15} | {2, -30} | {3, -15} | {4, -15}",
+                    "Id", "Título", "Descrição", "Data de Abertura", "Equipamento"
+                );
+
+                for (int i = 0; i < chamadosSalvos.Length; i++)
+                {
+                    Chamado ch = chamadosSalvos[i];
+
+                    if (ch == null)
+                        continue;
+
+                    Console.WriteLine(
+                        "{0, -7} | {1, -15} | {2, -30} | {3, -15} | {4, -15}",
+                        ch.id,
+                        ch.titulo,
+                        ch.descricao,
+                        ch.dataAbertura.ToShortDateString(),
+                        ch.equipamentos.nome
+                    );
+                }
+
+                Console.WriteLine("---------------------------------");
+                Console.WriteLine("Digite ENTER para continuar...");
+                Console.ReadLine();
+            }
+
         }
     }
 }
