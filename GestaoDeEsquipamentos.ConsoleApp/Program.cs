@@ -1,4 +1,5 @@
-﻿using GestaoDeEsquipamentos.ConsoleApp.Dominio;
+﻿using GestaoDeEsquipamentos.ConsoleApp.Apresentacao;
+using GestaoDeEsquipamentos.ConsoleApp.Dominio;
 
 int contadorIdsEquipamentos = 1;
 Equipamentos[] equipamentosSalvos = new Equipamentos[100];
@@ -23,18 +24,12 @@ chamadoTeste.equipamentos = equipamentoTeste;
 
 chamadosSalvos[0] = chamadoTeste;
 
+TelaPrincipal telaPrincipal = new TelaPrincipal();
+
 while (true)
 {
-    Console.Clear();
-    Console.WriteLine("---------------------------------");
-    Console.WriteLine("Gestão de Equipamentos");
-    Console.WriteLine("---------------------------------");
-    Console.WriteLine("1 - Controle de equipamentos");
-    Console.WriteLine("2 - Controle de chamados");
-    Console.WriteLine("S - Sair");
-    Console.WriteLine("---------------------------------");
-    Console.Write("> ");
-    string? opcaoMenuPrincipal = Console.ReadLine()?.ToUpper();
+
+    string? opcaoMenuPrincipal = telaPrincipal.ObterOpcaoMenuPrincipal();
 
     if (opcaoMenuPrincipal == "S")
     {
