@@ -1,6 +1,6 @@
 using System;
 
-namespace GestaoDeEsquipamentos.ConsoleApp.Dominio;
+namespace GestaoDeEquipamentos.ConsoleApp.Dominio;
 
 public class Chamado
 {

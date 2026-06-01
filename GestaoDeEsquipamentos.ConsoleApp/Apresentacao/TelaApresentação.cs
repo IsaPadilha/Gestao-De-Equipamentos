@@ -1,6 +1,4 @@
-using System;
-
-namespace GestaoDeEsquipamentos.ConsoleApp.Apresentacao;
+namespace GestaoDeEquipamentos.ConsoleApp.Apresentacao;
 
 public class TelaPrincipal
 {
